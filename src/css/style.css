@@ -1,73 +1,71 @@
 * {
-	margin: 0em;
-	font-family: 'Fira Sans', sans-serif;
-
+  margin: 0em;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 body {
-	background: #eaebf0 url(img/background.png) repeat;
-	background-size: 1.25rem 0.625rem;
+  background: #eaebf0 url(img/background.png) repeat;
+  background-size: 1.25rem 0.625rem;
 }
 
 .header-main {
-	background: #fff;
+  background: #fff;
+  border: solid 1px #eaebf0;
 }
 
 .header-container { 
-	background: #fff;
-	display: flex;
-	justify-content: space-between;
-	padding-left: 7.5rem;
-	padding-top: 1.25rem;
-	padding-bottom: 1.25rem;
-	padding-right: 7.5rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .header-logo {
-	width: 11.19375rem;
-	height: 1.5rem;
+  width: 11.19375rem;
+  height: 1.5rem;
 }
 
 .nav a {
-	margin: auto 1rem;
-	text-decoration: none;
-	color: black;
+  margin: auto 1rem;
+  text-decoration: none;
+  color: black;
 }
 
 .banner {
-	background: black;
-	display: flex;
-	justify-content: center;
+  background: black;
+  display: flex;
+  justify-content: center;
 }
 
 .banner-logo {
-	padding: 5rem 31.875rem 5rem 31.875rem;
-	width: 26.18125rem;
-	height: 8.1875rem;
+  padding: 5rem 31.875rem 5rem 31.875rem;
+  width: 26.18125rem;
+  height: 8.1875rem;
 }
 
 .discover-title {
-	padding-top: 4rem;
-	padding-bottom: 0.5rem;
-	line-height: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 0.5rem;
+  line-height: 2rem;
 }
 
 .discover-text {
-	padding-bottom: 1rem;
-	line-height: 1.5rem;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
 }
 
 .discover-button {
-	padding-top: 2.625rem;
-	padding-right: 11.9375rem;
-	border: 0;
-	line-height: 1.4;
-	font-size: 1rem;
-	text-align: center;
-	background-color: #000;
-	color: #fff;
-	cursor: pointer;
-	padding-top: 13px;
+  padding-top: 2.625rem;
+  padding-right: 11.9375rem;
+  border: 0;
+  line-height: 1.4;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 13px;
   padding-left: 31px;
   padding-bottom: 13px;
   padding-right: 31px;
@@ -75,17 +73,17 @@ body {
 }
 
 .card {
-	display: flex;
-	justify-content: center;
-	margin-left: auto;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
   margin-right: auto;
-	margin-bottom: 3rem;
+  margin-bottom: 3rem;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
 
 .card-container {
-	display: flex;
+  display: flex;
 }
 
 .card-container:hover {
@@ -93,61 +91,61 @@ body {
  }
 
 .card-image {
-	width: 30.25rem;
-	height: 21.875rem;
+  width: 30.25rem;
+  height: 21.875rem;
 }
 
 .card-info {
-	border-bottom-color: #646971;
+  border-bottom-color: #646971;
   border-bottom-width: 0.125rem;
   border-bottom-style: solid;
   background-color: #fff;
 }
 
 .card-place {
-	margin-top: 1.5rem;
-	margin-left: 1rem;
-	font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  font-size: 1rem;
   font-family: Monaco, Consolas, 'Lucida Console', monospace;
   text-transform: uppercase;
   color: #646971;
 }
 
 .card-title {
-	margin-top: 1.5rem;
-	margin-left: 1rem;
-	font-size: 2.5rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #000;
 }
 
 .card-description {
-	margin-left: 1rem;
-	margin-right: 6.25rem;
-	margin-top: 0.5rem;
-	font-size: 1rem;
-	line-height: 2rem;
-	color: #000;
-	padding-right: 6.25rem;
+  margin-left: 1rem;
+  margin-right: 6.25rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #000;
+  padding-right: 6.25rem;
 }
 
 /* Footer */
 
 .footer-main {
-	background-color: #000;
+  background-color: #000;
 }
 
 .footer-title {
-	color: #646971;
-	margin-bottom: 0.5rem;
+  color: #646971;
+  margin-bottom: 0.5rem;
 }
 
 .footer-title:first-child {
-	margin-top: 2rem; 
+  margin-top: 2rem; 
 }
 
 .footer-info {
-	font-size: 14px;
+  font-size: 14px;
   font-weight: 300;
   color: #a9afb6;
   line-height: 1.4;
@@ -155,40 +153,40 @@ body {
 }
 
 .footer-info:last-child {
-	margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .footer-link {
-	display: block;
-	color: #ffffff;
-	text-decoration: none;
-	margin-bottom: 0.5rem;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
 }
 
 .footer-link:last-child {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .footer-list1>.footer-link:last-child {
-	margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .footer-arrow {
-	width: 0.5rem;
-	height: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
 .footer-delimiter {
-	margin-top: 2rem;
-	margin-bottom: 1rem;
-	width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
   height: 0.125rem;
   border-style: solid;
   background-color: #3e4247;
 }
 
 .footer-copyright {
-	font-size: 11px;
+  font-size: 11px;
   font-weight: 300;
   color: #a9afb6;
   line-height: 1.2rem;
