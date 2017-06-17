@@ -1,4 +1,4 @@
-﻿body {
+body {
   background: #eaebf0 url(../img/background.png) repeat;
   background-size: 1.25rem 0.625rem;
   line-height: 1.5rem;
@@ -19,12 +19,13 @@
 }
 
 .header-logo {
+  margin-left: 1rem;
   width: 11rem;
-  height: 1.5rem;
+  height: 1.6rem;
 }
 
 .nav {
-  margin-top: .25rem;
+  margin-top: .20rem;
 }
 
 .nav-link {
@@ -47,7 +48,7 @@
 }
 
 .discover-title {
-  margin-top: 4rem;
+  margin-top: 4.3rem;
   margin-bottom: 0.5rem;
 }
 
@@ -63,9 +64,9 @@
   background-color: #000;
   color: #fff;
   cursor: pointer;
-  padding-top: 13px;
+  padding-top: 9px;
   padding-left: 31px;
-  padding-bottom: 13px;
+  padding-bottom: 9px;
   padding-right: 31px;
   margin-bottom: 4rem;
   font-family: var(--fira);
@@ -75,8 +76,8 @@
 .card {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
   margin-bottom: 3rem;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
@@ -100,16 +101,16 @@
 }
 
 .card-place {
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
   margin-left: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: Monaco, Consolas, 'Lucida Console', monospace;
   text-transform: uppercase;
   color: #646971;
 }
 
 .card-title {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   margin-left: 1rem;
   font-size: 2.5rem;
   font-weight: bold;
@@ -120,7 +121,6 @@
 
 .card-description {
   margin-left: 1rem;
-  margin-right: 6.25rem;
   margin-top: 0.5rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -150,11 +150,12 @@
   font-weight: 300;
   color: #a9afb6;
   line-height: 1.4;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
 }
 
 .footer-info:last-child {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .footer-link {
@@ -191,6 +192,6 @@
   font-weight: 300;
   color: #a9afb6;
   line-height: 1.2rem;
-  margin-top: 6rem;
+  margin-top: 5rem;
   margin-bottom: 1.75rem;
 }
