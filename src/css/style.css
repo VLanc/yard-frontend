@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   margin: 0em;
   font-family: 'Fira Sans', sans-serif;
 }
@@ -6,6 +6,7 @@
 body {
   background: #eaebf0 url(../img/background.png) repeat;
   background-size: 1.25rem 0.625rem;
+  line-height: 1.5rem;
 }
 
 .header-main {
@@ -22,12 +23,17 @@ body {
 }
 
 .header-logo {
-  width: 11.19375rem;
+  width: 11rem;
   height: 1.5rem;
 }
 
+.nav {
+  margin-top: .25rem;
+}
+
 .nav-link {
-  margin: auto 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
   text-decoration: none;
   color: black;
 }
@@ -45,13 +51,11 @@ body {
 }
 
 .discover-title {
-  padding-top: 4rem;
-  padding-bottom: 0.5rem;
-  line-height: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 0.5rem;
 }
 
 .discover-text {
-  padding-bottom: 1rem;
   line-height: 1.5rem;
 }
 
@@ -111,8 +115,10 @@ body {
   margin-top: 1.5rem;
   margin-left: 1rem;
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: bold;
   color: #000;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
 }
 
 .card-description {
@@ -120,7 +126,7 @@ body {
   margin-right: 6.25rem;
   margin-top: 0.5rem;
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.5;
   color: #000;
   padding-right: 6.25rem;
 }
