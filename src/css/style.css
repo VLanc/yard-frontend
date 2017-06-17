@@ -1,12 +1,9 @@
-﻿:root {
-  margin: 0em;
-  font-family: 'Fira Sans', sans-serif;
-}
-
-body {
+﻿body {
   background: #eaebf0 url(../img/background.png) repeat;
   background-size: 1.25rem 0.625rem;
   line-height: 1.5rem;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 0em;
 }
 
 .header-main {
@@ -72,10 +69,11 @@ body {
   padding-bottom: 13px;
   padding-right: 31px;
   margin-bottom: 4rem;
+  font-family: var(--fira);
+  outline: none;
 }
 
 .card {
-  display: flex;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -130,8 +128,6 @@ body {
   color: #000;
   padding-right: 6.25rem;
 }
-
-/* Footer */
 
 .footer-main {
   margin-top: 6rem;
