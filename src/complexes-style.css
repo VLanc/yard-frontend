@@ -1,0 +1,97 @@
+/* Complexes page */
+
+body {
+  background: #eaebf0 url(img/background.png) repeat;
+  background-size: 1.25rem 0.625rem;
+}
+
+.banner {
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-logo {
+  padding: 5rem 31.875rem 5rem 31.875rem;
+  width: 26.18125rem;
+  height: 8.1875rem;
+}
+
+.discover-title {
+  margin-top: 4.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.discover-text {
+  line-height: 1.5rem;
+}
+
+.discover-button {
+  border: 0;
+  line-height: 1.4;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-left: 31px;
+  padding-bottom: 9px;
+  padding-right: 31px;
+  margin-bottom: 4rem;
+  font-family: var(--fira);
+  outline: none;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.card:hover {
+   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+ }
+
+.card-image {
+  width: 30.25rem;
+  height: 21.875rem;
+  flex-shrink: 0;
+}
+
+.card-info {
+  border-bottom-color: #646971;
+  border-bottom-width: 0.125rem;
+  border-bottom-style: solid;
+  background-color: #fff;
+}
+
+.card-place {
+  margin-top: 1.4rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-family: Monaco, Consolas, 'Lucida Console', monospace;
+  text-transform: uppercase;
+  color: #646971;
+}
+
+.card-title {
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000;
+  padding-right: 6.25rem;
+}
