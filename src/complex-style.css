@@ -1,12 +1,12 @@
 /*   Complex page   */
 /* Main-title */
 
-.complex-main-title {
+.complex-main {
   padding: 1.4rem 0 1rem 0;
   background-color: white;
 }
 
-.complex-title-name {
+.complex-main-title {
   font-family: Philosopher;
   font-size: 32px;
   font-weight: bold;
@@ -15,7 +15,7 @@
   margin-top: 0.5rem;
 }
 
-.complex-title-additional {
+.complex-main-additional {
   font-family: 'Fira Sans';
   font-size: 14px;
   font-weight: 300;
@@ -38,43 +38,43 @@
   background: transparent;
 }
 
-.complex-img-box {
+.complex-gallery-box {
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
 }
 
-.img-box-picture-1 {
+.complex-gallery-img-1 {
   width: 18.5rem;
   height: 25rem;
   flex-shrink: 0;
 }
 
-.img-box-picture-2 {
+.complex-gallery-img-2 {
   width: 17.5rem;
   height: 25rem;
   flex-shrink: 0;
 }
 
-.img-box-picture-3 {
+.icomplex-gallery-img-3 {
   width: 10.25rem;
   height: 25rem;
   flex-shrink: 0;
 }
 
-.img-box-picture-4 {
+.complex-gallery-img-4 {
   width: 39.125rem;
   height: 25rem;
   flex-shrink: 0;
 }
 
-.img-box-picture-5 {
+.complex-gallery-img-5 {
   width: 4.5rem;
   height: 25rem;
   flex-shrink: 0;
 }
 
-.complex-img-gallery-button-wrapper {
+.complex-gallery-button-wrapper {
   position: absolute;
   margin: -3.725rem 0 0 1.3rem;
 }
@@ -185,7 +185,7 @@
 }
 
 .complex-global-heading:last-child { 
-margin-top: 0.2rem; 
+  margin-top: 0.2rem; 
 }
 
 /* Global infrastructure */
@@ -336,6 +336,6 @@ margin-top: 0.2rem;
   color: #a9afb6;
 }
 
-.location-info-blocks {
+.complex-location-info {
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
 }
