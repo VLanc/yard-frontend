@@ -47,26 +47,31 @@
 .img-box-picture-1 {
   width: 18.5rem;
   height: 25rem;
+  flex-shrink: 0;
 }
 
 .img-box-picture-2 {
   width: 17.5rem;
   height: 25rem;
+  flex-shrink: 0;
 }
 
 .img-box-picture-3 {
   width: 10.25rem;
   height: 25rem;
+  flex-shrink: 0;
 }
 
 .img-box-picture-4 {
   width: 39.125rem;
   height: 25rem;
+  flex-shrink: 0;
 }
 
 .img-box-picture-5 {
   width: 4.5rem;
   height: 25rem;
+  flex-shrink: 0;
 }
 
 .complex-img-gallery-button-wrapper {
@@ -243,18 +248,18 @@ margin-top: 0.2rem;
 }
 
 .complex-offer-button-contact {
-  border: 0; 
-  line-height: 1; 
-  font-size: 1rem; 
-  text-align: center; 
-  background-color: #000; 
-  color: #ffffff; 
-  cursor: pointer; 
   padding-top: 12px; 
-  padding-left: 42px; 
+  padding-left: 30px; 
   padding-bottom: 12px; 
-  padding-right: 42px; 
+  padding-right: 30px; 
   font-family: 'Fira Sans'; 
+  line-height: 1; 
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff; 
+  cursor: pointer;
+  background-color: #000;  
+  border: 0; 
 }
 
 /* Near */
