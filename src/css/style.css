@@ -176,8 +176,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.footer-list>.footer-link:last-child {
+.footer-link-all {
   margin-top: 0.8rem;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 0.35rem;
 }
 
 .footer-arrow {
