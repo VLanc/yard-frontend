@@ -3,6 +3,8 @@ body {
   background-size: 1.25rem 0.625rem;
   line-height: 1.5rem;
   font-family: 'Fira Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 .header-main {
