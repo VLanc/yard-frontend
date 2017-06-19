@@ -1,0 +1,341 @@
+/*   Complex page   */
+/* Main-header */
+
+.complex-main-header {
+  padding: 1.4rem 0 1rem 0;
+  background-color: white;
+}
+
+.complex-main-title {
+  font-family: Philosopher;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3e4247;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.complex-main-additional {
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  font-weight: 300;
+  color: #a9afb6;
+  margin: 0.8rem 0 0 0;
+  line-height: 1.375rem;
+}
+
+.complex-favorite-button {
+  margin-top: 0;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-family: 'Fira Sans';
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 1;
+  color: #00779a;
+  border-radius: 2px;
+  border: 1px solid #e0e0e1;
+  background: transparent;
+}
+
+.complex-gallery-box {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.complex-gallery-img-1 {
+  width: 18.5rem;
+  height: 25rem;
+  flex-shrink: 0;
+}
+
+.complex-gallery-img-2 {
+  width: 17.5rem;
+  height: 25rem;
+  flex-shrink: 0;
+}
+
+.complex-gallery-img-3 {
+  width: 10.25rem;
+  height: 25rem;
+  flex-shrink: 0;
+}
+
+.complex-gallery-img-4 {
+  width: 39.125rem;
+  height: 25rem;
+  flex-shrink: 0;
+}
+
+.complex-gallery-img-5 {
+  width: 4.5rem;
+  height: 25rem;
+  flex-shrink: 0;
+}
+
+.complex-gallery-button-wrapper {
+  position: absolute;
+  margin: -3.725rem 0 0 1.3rem;
+}
+
+.complex-button-all-photos {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 2px;
+  border: 0;
+  background-color: #00779a;
+  font-family: 'Fira Sans';
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 1;
+  color: #ffffff;
+}
+
+/* total-informationl  */
+
+.complex-total-informationl {
+  background-color: white;
+}
+
+/* Summary Header */
+
+.complex-total-informationl-header {
+  padding: 0.6rem 0 0 0;
+}
+
+.total-informationl-header-wrapper {
+  display: flex;
+  border-bottom: 1px solid #e0e0e1;
+}
+
+.complex-total-informationl-header-block {
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.complex-total-informationl-title-additional {
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  font-weight: 300;
+  color: #a9afb6;
+  margin: 0.6rem 0 0 0;
+  line-height: 1.375rem;
+}
+
+.complex-total-informationl-heading {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-family: 'Philosopher';
+  font-size: 24px;
+  font-weight: bold;
+  color: #3e4247;
+}
+
+/* total-informationl features */
+
+.complex-total-informationl-features {
+  padding: 2.25rem 0 3.1rem 0;
+}
+
+.complex-total-informationl-feature-block {
+  display: flex;
+  margin: 0.5rem 0 0 0;
+}
+
+.complex-total-informationl-feature-block:first-child {
+  margin-top: 0;
+}
+
+.complex-total-informationl-feature-title, .complex-total-informationl-feature-quantity {
+  width: 50%;
+  line-height: 1.5625rem;
+}
+
+.complex-total-informationl-feature-title {
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  color: #a9afb6;
+  width: 50%;
+}
+
+.complex-total-informationl-feature-quantity {
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  font-weight: 500;
+  color: #3e4247;
+  width: 50%;
+}
+
+.complex-total-informationl-features-wrapper {
+  margin-top: 1rem;
+}
+
+/* total-informationl description */
+
+.complex-total-informationl-description {
+  padding-bottom: 1.5rem;
+}
+
+.complex-total-informationl-text {
+  margin: 0;
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  color: #3e4247;
+  line-height: 1.5625rem;
+}
+
+.complex-total-informationl-heading:last-child { 
+  margin-top: 0.2rem; 
+}
+
+/* total-informationl infrastructure */
+
+.complex-total-informationl-infrastructure {
+  padding: 0 0 3.5rem 0;
+}
+
+.complex-total-informationl-infrastructure-content {
+  padding-top: 2.2rem;
+  border-top: 1px solid #e0e0e1;
+}
+
+.complex-total-informationl-infrastructure-wrapper {
+  margin-top: 0.9rem;
+}
+
+.complex-total-informationl-infrastructure-wrapper .complex-total-informationl-text {
+  margin-bottom: 0.35rem;
+}
+
+/* Offers */
+
+.complex-offers-features {
+  margin-top: 1.25rem;
+}
+
+.complex-offers {
+  padding: 4rem 0 4.1rem 0;
+  background-color: #f4f5f9;
+}
+
+.complex-offer-title {
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  color: #a9afb6;
+  margin: 0 0 0.45rem 0;
+}
+
+.complex-offer-heading {
+  font-family: 'Philosopher';
+  font-size: 20px;
+  font-weight: bold;
+  color: #3e4247;
+  margin: 0 0 1.3rem 0;
+}
+
+.complex-offer-block {
+  margin: 0 0 1.5rem 0;
+}
+
+.complex-offer {
+  background-color: white;
+  padding: 1.3rem 2rem;
+  1.5rem 2rem;
+}
+
+.complex-offer-button-wrapper {
+  margin-top: 0.5rem; 
+}
+
+.complex-offer-button-contact {
+  padding-top: 12px; 
+  padding-left: 30px; 
+  padding-bottom: 12px; 
+  padding-right: 30px; 
+  font-family: 'Fira Sans'; 
+  line-height: 1; 
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff; 
+  cursor: pointer;
+  background-color: #000;  
+  border: 0; 
+}
+
+/* Near */
+
+.complex-near {
+  background-color: #3e4247;
+  padding-top: 4rem;
+  padding-bottom: 13.125rem;
+}
+
+.complex-near .complex-total-informationl-heading {
+  color: #a9afb6;
+}
+
+.complex-near-heading {
+  font-family: 'Philosopher';
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #ffffff;
+  margin: 3.1rem 0 3.1rem 0;
+}
+
+.complex-near-link {
+  text-decoration: none;
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  color: #00779a;
+}
+
+.link-arrow {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.complex-near-photo {
+  width: 100%;
+  height: 560px;
+}
+
+/* Location */
+
+.complex-location {
+  margin-top: -9.625rem;
+  margin-bottom: 2rem;
+}
+
+.complex-map {
+  width: 100%;
+  height: 306px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+.complex-location-wrapper {
+  padding: 1.5rem;
+  background-color: white;
+  border-bottom: solid 1px #e0e0e1;
+}
+
+.complex-location-name {
+  margin: 0;
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.38;
+  color: #3e4247;
+}
+
+.complex-location-duration {
+  margin: 0.55rem 0 0 0;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  line-height: 1.38;
+  color: #a9afb6;
+}
+
+.complex-location-info {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+}
