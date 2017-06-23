@@ -33,7 +33,7 @@ const NavLink = styled(Link)`
   font-size: 1rem;
   line-height: 1;
   text-decoration: none;
-  color: #3e4247;
+    color: #000;
 `;
 
 export default () => {
@@ -43,9 +43,9 @@ export default () => {
         <Content>
             <Logo src={logo} />
           <Nav>
-            <NavLink to={"/"}>Купить</NavLink>
-            <NavLink to={"/"}>Снять</NavLink>
-            <NavLink to={"/"}>Наши агенты</NavLink>
+            <NavLink to="#">Купить</NavLink>
+            <NavLink to="#">Снять</NavLink>
+            <NavLink to="#">Наши агенты</NavLink>
           </Nav>
         </Content>
       </Grid>

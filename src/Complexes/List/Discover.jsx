@@ -16,7 +16,7 @@ const Title = styled.h2`
 const Text = styled.p`
   line-height: 1.5;
   font-size: 1rem;
-  color: #3e4247;
+  color: #000;
 `;
 
 const Button = styled.button`
