@@ -89,7 +89,7 @@ export default () => {
             <Info>+7 (999) 821-14-88</Info>
           </Col>
           <Col lgOffset={2} lg={2}>
-            <Delimiter></Delimiter>
+            <Delimiter />
             <Title>Жилые комплексы</Title>
             <nav>
               <NavLink to={"/"}>ВТБ Арена Парк</NavLink>
