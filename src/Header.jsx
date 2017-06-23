@@ -33,7 +33,7 @@ const NavLink = styled(Link)`
   font-size: 1rem;
   line-height: 1;
   text-decoration: none;
-    color: #000;
+  color: #000;
 `;
 
 export default () => {
