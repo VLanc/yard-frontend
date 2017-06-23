@@ -92,10 +92,10 @@ export default () => {
             <Delimiter />
             <Title>Жилые комплексы</Title>
             <nav>
-              <NavLink to={"/"}>ВТБ Арена Парк</NavLink>
-              <NavLink to={"/"}>Садовые кварталы</NavLink>
-              <NavLink to={"/"}>Резиденция Монэ</NavLink>
-              <NavLinkAll to={"/"}>Все ЖК Москвы
+              <NavLink to="#">ВТБ Арена Парк</NavLink>
+              <NavLink to="#">Садовые кварталы</NavLink>
+              <NavLink to="#">Резиденция Монэ</NavLink>
+              <NavLinkAll to="#">Все ЖК Москвы
                 <Arrow src={arrow}></Arrow>
               </NavLinkAll>
             </nav>
@@ -104,8 +104,8 @@ export default () => {
             <Delimiter />
             <Title>Компания</Title>
             <nav>
-              <NavLink to={"/"}>Команда</NavLink>
-              <NavLink to={"/"}>О компании</NavLink>
+              <NavLink to="#">Команда</NavLink>
+              <NavLink to="#">О компании</NavLink>
             </nav>
           </Col>
         </Row>
