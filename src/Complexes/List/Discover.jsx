@@ -45,7 +45,9 @@ export default () => {
             Discover Our New Developments
           </Title>
           <Text>
-            Compass brings a modern approach to new development marketing and sales. From boutique rental conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.
+            Compass brings a modern approach to new development marketing
+            and sales. From boutique rental conversions to luxurious ground-up
+            condominiums, browse our portfolio of current offerings.
           </Text>
           <Button>
             Contact The Team
