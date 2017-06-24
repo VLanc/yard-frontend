@@ -5,7 +5,9 @@ import BodyClassName from "react-body-classname";
 import MainTitle from "./MainTitle";
 import Gallery from "./Gallery";
 import TotalInformation from "./TotalInformation";
-import Offers from "./Offers";
+import OffersList from "./OffersList";
+import Near from "./Near";
+import Location from "./Location";
 
 export default props => {
   return (
@@ -18,7 +20,9 @@ export default props => {
           <MainTitle />
           <Gallery />
           <TotalInformation />
-          <Offers />
+          <OffersList />
+          <Near />
+          <Location />
         </div>
       </BodyClassName>
     </div>
