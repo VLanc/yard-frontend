@@ -31,7 +31,7 @@ const Heading = styled.p`
   margin: 3.1rem 0 3.1rem 0;
 `;
 
-const NearLink = styled(Link)`
+const NearbyLink = styled(Link)`
   text-decoration: none;
   font-family: 'Fira Sans';
   font-size: 1rem;
@@ -45,7 +45,6 @@ const Arrow = styled.img`
 `;
 
 const Photo = styled.img`
-  width: 100%;
   height: 560px;
 `;
 
@@ -59,9 +58,9 @@ export default () => {
             <Heading>
               Исторический центр Москвы в двух <br />километрах от Кремля
             </Heading>
-            <NearLink to="#">
-              Гид по Якиманке<Arrow src="/img/arrow-near.svg" alt="" />
-            </NearLink>
+            <NearbyLink to="#">
+              Гид по Якиманке<Arrow src="/img/arrow-nearby.svg" alt="" />
+            </NearbyLink>
           </Col>
           <Col lg={6}>
             <Photo src="/img/Yakimanka.png" />

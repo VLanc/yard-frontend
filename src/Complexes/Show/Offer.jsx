@@ -56,7 +56,7 @@ const Button = styled.button`
 export default props => {
   return (
     <Offer>
-      <OfferHeading>{props.count}-комнатные квартиры</OfferHeading>
+      <OfferHeading>{props.amount}-комнатные квартиры</OfferHeading>
       <Content>
         <Title>Площадь</Title>
         <Value>от {props.square.min} до {props.square.max} м²</Value>

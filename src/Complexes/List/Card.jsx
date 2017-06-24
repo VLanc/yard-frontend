@@ -11,8 +11,8 @@ const Card = styled(Link)`
   text-decoration: none;
 
   &:last-child {
-    margin-bottom: 6rem;
-  }
+      margin-bottom: 6rem;
+    }
 
   &:hover {
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
@@ -63,13 +63,13 @@ const Decscription = styled.p`
 
 export default props => {
   return (
-      <Card to={`/complexes/${props.id}`}>
-        <Image src={process.env.PUBLIC_URL + "/img/picture-" + props.id + ".png"} />
-        <Content>
-          <Place>{props.geo}</Place>
-          <Title>{props.title}</Title>
-          <Decscription>{props.children}</Decscription>
-        </Content>
-      </Card>
+    <Card to={`/complexes/${props.id}`}>
+      <Image src={process.env.PUBLIC_URL + "/img/picture-" + props.id + ".png"} />
+      <Content>
+        <Place>{props.geo}</Place>
+        <Title>{props.title}</Title>
+        <Decscription>{props.children}</Decscription>
+      </Content>
+    </Card>
   );
 };

@@ -4,15 +4,14 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import styled from "styled-components";
 
 const Banner = styled.div`
-  background: black;
+  background: #161616;
   display: flex;
   justify-content: center;
 `;
 
 const Logo = styled.img`
-  padding: 5rem 31.875rem 5rem 31.875rem;
-  width: 26.18125rem;
-  height: 8.1875rem;
+  margin: 5rem auto;
+  height: 131px;
 `;
 
 export default () => {
