@@ -37,7 +37,7 @@ const Title = styled.dt`
   width: 50%;
 `;
 
-const Quantity = styled.dd`
+const Value = styled.dd`
   width: 50%;
   line-height: 1.5625rem;
   font-family: 'Fira Sans';
@@ -57,43 +57,43 @@ export default () => {
             <Col lg={4}>
               <Feature>
                 <Title>Количество квартир</Title>
-                <Quantity>1 503</Quantity>
+                <Value>1 503</Value>
               </Feature>
               <Feature>
                 <Title>Статус</Title>
-                <Quantity>Квартиры</Quantity>
+                <Value>Квартиры</Value>
               </Feature>
               <Feature>
                 <Title>Цены</Title>
-                <Quantity>от 5.3 млн до 14.5 млн</Quantity>
+                <Value>от 5.3 млн до 14.5 млн</Value>
               </Feature>
             </Col>
             <Col lg={4}>
               <Feature>
                 <Title>Количество квартир</Title>
-                <Quantity>1 503</Quantity>
+                <Value>1 503</Value>
               </Feature>
               <Feature>
                 <Title>Количество квартир</Title>
-                <Quantity>1 503</Quantity>
+                <Value>1 503</Value>
               </Feature>
               <Feature>
                 <Title>Количество квартир</Title>
-                <Quantity>1 503</Quantity>
+                <Value>1 503</Value>
               </Feature>
             </Col>
             <Col lg={4}>
               <Feature>
                 <Title>Количество квартир</Title>
-                <Quantity>1 503</Quantity>
+                <Value>1 503</Value>
               </Feature>
               <Feature>
                 <Title>Количество квартир</Title>
-                <Quantity>1 503</Quantity>
+                <Value>1 503</Value>
               </Feature>
               <Feature>
                 <Title>Количество квартир</Title>
-                <Quantity>1 503</Quantity>
+                <Value>1 503</Value>
               </Feature>
             </Col>
           </Row>
