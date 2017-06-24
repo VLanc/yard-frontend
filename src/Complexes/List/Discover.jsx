@@ -32,28 +32,28 @@ const Button = styled.button`
   padding-bottom: 9px;
   padding-right: 31px;
   margin-bottom: 4rem;
-  font-family: var(--fira);
+  font-family: "Fira Sans";
   outline: none;
 `;
 
 export default () => {
   return (
-      <Grid>
-        <Content>
-          <Col lg={8}>
-          <Title>
-            Discover Our New Developments
-          </Title>
-          <Text>
-            Compass brings a modern approach to new development marketing
-            and sales. From boutique rental conversions to luxurious ground-up
-            condominiums, browse our portfolio of current offerings.
-          </Text>
-          <Button>
-            Contact The Team
-          </Button>
-        </Col>
-        </Content>
-      </Grid>
+    <Grid>
+      <Content>
+        <Col lg={8}>
+        <Title>
+          Discover Our New Developments
+        </Title>
+        <Text>
+          Compass brings a modern approach to new development marketing
+          and sales. From boutique rental conversions to luxurious ground-up
+          condominiums, browse our portfolio of current offerings.
+        </Text>
+        <Button>
+          Contact The Team
+        </Button>
+      </Col>
+      </Content>
+    </Grid>
   );
 };

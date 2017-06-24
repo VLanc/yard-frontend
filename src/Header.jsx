@@ -41,7 +41,7 @@ export default () => {
     <Header>
       <Grid>
         <Content>
-            <Logo src={logo} />
+          <Logo src={logo} />
           <Nav>
             <NavLink to="#">Купить</NavLink>
             <NavLink to="#">Снять</NavLink>

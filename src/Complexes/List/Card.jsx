@@ -59,13 +59,13 @@ const Decscription = styled.p`
 
 export default props => {
   return (
-      <Card to={`/complexes/${props.id}`}>
-        <Image src={process.env.PUBLIC_URL + "/img/picture-" + props.id + ".png"} />
-        <Content>
-          <Place>{props.geo}</Place>
-          <Title>{props.title}</Title>
-          <Decscription>{props.children}</Decscription>
-        </Content>
-      </Card>
+    <Card to={`/complexes/${props.id}`}>
+      <Image src={process.env.PUBLIC_URL + "/img/picture-" + props.id + ".png"} />
+      <Content>
+        <Place>{props.geo}</Place>
+        <Title>{props.title}</Title>
+        <Decscription>{props.children}</Decscription>
+      </Content>
+    </Card>
   );
 };
