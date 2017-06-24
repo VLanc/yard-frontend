@@ -11,8 +11,8 @@ const Card = styled(Link)`
   text-decoration: none;
 
   &:last-child {
-    margin-bottom: 6rem;
-  }
+      margin-bottom: 6rem;
+    }
 
   &:hover {
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);

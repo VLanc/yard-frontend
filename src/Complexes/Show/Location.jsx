@@ -32,7 +32,7 @@ const Name = styled.p`
   color: #3e4247;
 `;
 
-const Duration = styled.p`
+const Distance = styled.p`
   margin: 0.55rem 0 0 0;
   font-family: 'Fira Sans';
   font-size: 16px;
@@ -46,21 +46,21 @@ export default () => {
       <Grid>
         <Row>
           <Col lg={6}>
-            <LocationMap src="/img/map.png" />
+            <LocationMap src={process.env.PUBLIC_URL + "/img/map.png"} />
           </Col>
           <Col lg={6}>
             <Block>
               <Content>
                 <Name>Красный октябрь</Name>
-                <Duration>24 минуты, 6 км</Duration>
+                <Distance>24 минуты, 6 км</Distance>
               </Content>
               <Content>
                 <Name>World Class</Name>
-                <Duration>2 минуты, 300 м</Duration>
+                <Distance>2 минуты, 300 м</Distance>
               </Content>
               <Content>
                 <Name>Третьяковская галерея</Name>
-                <Duration>14 минут, 4 км</Duration>
+                <Distance>14 минут, 4 км</Distance>
               </Content>
             </Block>
           </Col>

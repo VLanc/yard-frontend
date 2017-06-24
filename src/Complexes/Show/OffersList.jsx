@@ -36,21 +36,21 @@ export default () => {
           <Row>
             <Col lg={4}>
               <Offer
-                count={1}
+                amount={1}
                 square={{min:59, max:120}}
                 price={{min:20.3, max:84.2}}
               />
             </Col>
             <Col lg={4}>
               <Offer
-                count={2}
+                amount={2}
                 square={{min:59, max:120}}
                 price={{min:20.3, max:84.2}}
               />
             </Col>
             <Col lg={4}>
               <Offer
-                count={3}
+                amount={3}
                 square={{min:59, max:120}}
                 price={{min:20.3, max:84.2}}
               />

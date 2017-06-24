@@ -6,8 +6,7 @@ import MainTitle from "./MainTitle";
 import Gallery from "./Gallery";
 import TotalInformation from "./TotalInformation";
 import OffersList from "./OffersList";
-import Near from "./Near";
-import Location from "./Location";
+import District from "./District";
 
 export default props => {
   return (
@@ -21,8 +20,7 @@ export default props => {
           <Gallery />
           <TotalInformation />
           <OffersList />
-          <Near />
-          <Location />
+          <District />
         </div>
       </BodyClassName>
     </div>
