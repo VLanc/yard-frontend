@@ -10,6 +10,10 @@ const Card = styled(Link)`
   transition: all 0.3s ease-in-out;
   text-decoration: none;
 
+  &:last-child {
+    margin-bottom: 6rem;
+  }
+
   &:hover {
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
     cursor: pointer;

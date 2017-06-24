@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import arrow from './img/arrow.svg';
 
 const Footer = styled.footer`
-  margin-top: 6rem;
+  /*margin-top: 6rem;*/
   background-color: #111;
   font-size: .875rem;
   font-weight: 300;
