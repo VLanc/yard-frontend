@@ -36,21 +36,22 @@ const Button = styled.button`
   outline: none;
 `;
 
-export default () =>
-  (<Grid>
+export default () => (
+  <Grid>
     <Content>
       <Col lg={8}>
         <Title>
-          Discover Our New Developments
-        </Title>
+            Discover Our New Developments
+          </Title>
         <Text>
-          Compass brings a modern approach to new development marketing
-          and sales. From boutique rental conversions to luxurious ground-up
-          condominiums, browse our portfolio of current offerings.
-        </Text>
+            Compass brings a modern approach to new development marketing
+            and sales. From boutique rental conversions to luxurious ground-up
+            condominiums, browse our portfolio of current offerings.
+          </Text>
         <Button>
-          Contact The Team
-        </Button>
+            Contact The Team
+          </Button>
       </Col>
     </Content>
-  </Grid>);
+  </Grid>
+  );

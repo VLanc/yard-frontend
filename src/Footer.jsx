@@ -76,8 +76,8 @@ const Copyright = styled.p`
   margin-bottom: 1.75rem;
 `;
 
-export default () =>
-  (<Footer>
+export default () => (
+  <Footer>
     <Grid>
       <Row>
         <Col lg={2}>
@@ -94,8 +94,8 @@ export default () =>
             <NavLink to="#">Садовые кварталы</NavLink>
             <NavLink to="#">Резиденция Монэ</NavLink>
             <NavLinkAll to="#">
-              Все ЖК Москвы
-              <Arrow src={arrow} />
+                Все ЖК Москвы
+                <Arrow src={arrow} />
             </NavLinkAll>
           </nav>
         </Col>
@@ -111,11 +111,12 @@ export default () =>
       <Row>
         <Col lgOffset={4} lg={8}>
           <Copyright>
-            Любая информация, представленная на данном сайте, носит исключительно информационный
-            характер и ни при каких условиях не является публичной офертой, определяемой
-            положениями статьи 437 ГК РФ. © ООО «Ярд», 2017
-          </Copyright>
+              Любая информация, представленная на данном сайте, носит исключительно информационный
+              характер и ни при каких условиях не является публичной офертой, определяемой
+              положениями статьи 437 ГК РФ. © ООО «Ярд», 2017
+            </Copyright>
         </Col>
       </Row>
     </Grid>
-  </Footer>);
+  </Footer>
+  );

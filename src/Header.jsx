@@ -37,8 +37,8 @@ const NavLink = styled(Link)`
   color: #000;
 `;
 
-export default () =>
-  (<Header>
+export default () => (
+  <Header>
     <Grid>
       <Content>
         <Logo src={logo} />
@@ -49,4 +49,5 @@ export default () =>
         </Nav>
       </Content>
     </Grid>
-  </Header>);
+  </Header>
+  );

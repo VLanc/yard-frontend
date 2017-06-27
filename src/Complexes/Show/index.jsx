@@ -8,10 +8,10 @@ import TotalInformation from './TotalInformation';
 import OffersList from './OffersList';
 import District from './District';
 
-export default () =>
-  (<div>
+export default () => (
+  <div>
     <Helmet>
-      <title>Compass - ЖК  &laquoПолянка/44 &laquo</title>
+      <title>Compass - ЖК Полянка/44</title>
     </Helmet>
     <BodyClassName className="complex">
       <div>
@@ -22,4 +22,5 @@ export default () =>
         <District />
       </div>
     </BodyClassName>
-  </div>);
+  </div>
+  );

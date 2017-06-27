@@ -40,8 +40,8 @@ const Distance = styled.p`
   color: #a9afb6;
 `;
 
-export default () =>
-  (<Wrapper>
+export default () => (
+  <Wrapper>
     <Grid>
       <Row>
         <Col lg={6}>
@@ -65,4 +65,5 @@ export default () =>
         </Col>
       </Row>
     </Grid>
-  </Wrapper>);
+  </Wrapper>
+  );

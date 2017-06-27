@@ -38,8 +38,8 @@ const Text = styled.p`
   margin-bottom: 0.35rem;
 `;
 
-export default () =>
-  (<Wrapper>
+export default () => (
+  <Wrapper>
     <Grid>
       <Content>
         <Heading>Инфраструктура</Heading>
@@ -76,4 +76,5 @@ export default () =>
         </Blocks>
       </Content>
     </Grid>
-  </Wrapper>);
+  </Wrapper>
+  );

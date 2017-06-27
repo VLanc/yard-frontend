@@ -29,8 +29,8 @@ const Button = styled.button`
   color: #ffffff;
 `;
 
-export default () =>
-  (<div>
+export default () => (
+  <div>
     <Images>
       <Image src={`${process.env.PUBLIC_URL}/img/image-1.png`} />
       <Image src={`${process.env.PUBLIC_URL}/img/image-2.png`} />
@@ -48,4 +48,5 @@ export default () =>
         </ButtonWrapper>
       </Row>
     </Grid>
-  </div>);
+  </div>
+  );

@@ -42,19 +42,20 @@ const Button = styled.button`
   background: transparent;
 `;
 
-export default () =>
-  (<MainTitle>
+export default () => (
+  <MainTitle>
     <Grid>
       <Row between="lg">
         <Col lg>
           <Name>Жилой комплекс «Полянка/44»</Name>
           <Additional>
-            Район Якиманка, улица Большая Полянка, дом 44 • 119180
-          </Additional>
+              Район Якиманка, улица Большая Полянка, дом 44 • 119180
+            </Additional>
         </Col>
         <ButtonWrapper>
           <Button>В избранное</Button>
         </ButtonWrapper>
       </Row>
     </Grid>
-  </MainTitle>);
+  </MainTitle>
+  );

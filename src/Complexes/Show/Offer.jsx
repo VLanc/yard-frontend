@@ -53,8 +53,8 @@ const Button = styled.button`
   border: 0;
 `;
 
-export default props =>
-  (<Offer>
+export default props => (
+  <Offer>
     <OfferHeading>{props.amount}-комнатные квартиры</OfferHeading>
     <Content>
       <Title>Площадь</Title>
@@ -69,4 +69,5 @@ export default props =>
         <Button>Посмотреть предложение</Button>
       </ButtonWrapper>
     </Row>
-  </Offer>);
+  </Offer>
+  );

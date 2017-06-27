@@ -47,8 +47,8 @@ const Value = styled.dd`
   width: 50%;
 `;
 
-export default () =>
-  (<Wrapper>
+export default () => (
+  <Wrapper>
     <Grid>
       <Heading>Характеристики</Heading>
       <Features>
@@ -98,4 +98,5 @@ export default () =>
         </Row>
       </Features>
     </Grid>
-  </Wrapper>);
+  </Wrapper>
+  );

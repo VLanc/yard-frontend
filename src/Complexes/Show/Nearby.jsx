@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import styled from 'styled-components';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Wrapper = styled.section`
   background-color: #3e4247;
@@ -48,17 +48,17 @@ const Photo = styled.img`
   height: 560px;
 `;
 
-export default () =>
-  (<Wrapper>
+export default () => (
+  <Wrapper>
     <Grid>
       <Row between="lg" middle="lg">
         <Col lg={6}>
           <Title>Якиманка</Title>
           <Heading>
-            Исторический центр Москвы в двух <br />километрах от Кремля
-          </Heading>
+              Исторический центр Москвы в двух <br />километрах от Кремля
+            </Heading>
           <NearbyLink to="#">
-            Гид по Якиманке<Arrow src="/img/arrow-nearby.svg" alt="" />
+              Гид по Якиманке<Arrow src="/img/arrow-nearby.svg" alt="" />
           </NearbyLink>
         </Col>
         <Col lg={6}>
@@ -66,4 +66,5 @@ export default () =>
         </Col>
       </Row>
     </Grid>
-  </Wrapper>);
+  </Wrapper>
+  );

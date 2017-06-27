@@ -25,8 +25,8 @@ const Features = styled.div`
   margin-top: 1.25rem;
 `;
 
-export default () =>
-  (<Wrapper>
+export default () => (
+  <Wrapper>
     <Grid>
       <Row center="lg">
         <Heading>Предложения в ЖК «Полянка/44»</Heading>
@@ -45,4 +45,5 @@ export default () =>
         </Row>
       </Features>
     </Grid>
-  </Wrapper>);
+  </Wrapper>
+  );

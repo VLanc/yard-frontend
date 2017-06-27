@@ -38,8 +38,8 @@ const Additional = styled.small`
   }
 `;
 
-export default () =>
-  (<Wrapper>
+export default () => (
+  <Wrapper>
     <Grid>
       <Blocks>
         <Block>
@@ -56,4 +56,5 @@ export default () =>
         </Block>
       </Blocks>
     </Grid>
-  </Wrapper>);
+  </Wrapper>
+  );

@@ -14,7 +14,8 @@ const Logo = styled.img`
   height: 131px;
 `;
 
-export default () =>
-  (<Banner>
+export default () => (
+  <Banner>
     <Logo src={logo} />
-  </Banner>);
+  </Banner>
+  );
