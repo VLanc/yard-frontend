@@ -1,15 +1,11 @@
-import React, { Component } from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
 
-import Nearby from "./Nearby";
-import Location from "./Location";
+import Nearby from './Nearby';
+import Location from './Location';
 
-export default () => {
-  return (
-    <div>
-      <Nearby />
-      <Location />
-    </div>
+export default () => (
+  <div>
+    <Nearby />
+    <Location />
+  </div>
   );
-};

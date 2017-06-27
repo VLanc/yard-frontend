@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import { Helmet } from "react-helmet";
-import BodyClassName from "react-body-classname";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import BodyClassName from 'react-body-classname';
 
-import MainTitle from "./MainTitle";
-import Gallery from "./Gallery";
-import TotalInformation from "./TotalInformation";
-import OffersList from "./OffersList";
-import District from "./District";
+import MainTitle from './MainTitle';
+import Gallery from './Gallery';
+import TotalInformation from './TotalInformation';
+import OffersList from './OffersList';
+import District from './District';
 
-export default props => {
-  return (
-    <div>
-      <Helmet>
-        <title>Compass - ЖК "Полянка/44"</title>
-      </Helmet>
-      <BodyClassName className="complex">
-        <div>
-          <MainTitle />
-          <Gallery />
-          <TotalInformation />
-          <OffersList />
-          <District />
-        </div>
-      </BodyClassName>
-    </div>
+export default () => (
+  <div>
+    <Helmet>
+      <title>Compass - ЖК Полянка/44</title>
+    </Helmet>
+    <BodyClassName className="complex">
+      <div>
+        <MainTitle />
+        <Gallery />
+        <TotalInformation />
+        <OffersList />
+        <District />
+      </div>
+    </BodyClassName>
+  </div>
   );
-};
