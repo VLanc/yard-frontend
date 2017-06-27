@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Card = styled(Link)`
   display: flex;
@@ -61,15 +60,12 @@ const Decscription = styled.p`
   padding-right: 6.25rem;
 `;
 
-export default props => {
-  return (
-    <Card to={`/complexes/${props.id}`}>
-      <Image src={process.env.PUBLIC_URL + "/img/picture-" + props.id + ".png"} />
-      <Content>
-        <Place>{props.geo}</Place>
-        <Title>{props.title}</Title>
-        <Decscription>{props.children}</Decscription>
-      </Content>
-    </Card>
-  );
-};
+export default props =>
+  (<Card to={`/complexes/${props.id}`}>
+    <Image src={`${process.env.PUBLIC_URL}/img/picture-${props.id}.png`} />
+    <Content>
+      <Place>{props.geo}</Place>
+      <Title>{props.title}</Title>
+      <Decscription>{props.children}</Decscription>
+    </Content>
+  </Card>);

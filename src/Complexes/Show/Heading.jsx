@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   padding: 0.6rem 0 0 0;
@@ -38,25 +38,22 @@ const Additional = styled.small`
   }
 `;
 
-export default () => {
-  return (
-    <Wrapper>
-      <Grid>
-        <Blocks>
-          <Block>
-            <Heading>950<br /></Heading>
-            <Additional>предложений</Additional>
-          </Block>
-          <Block>
-            <Heading>John McAslan + Partners<br /></Heading>
-            <Additional>архитектор</Additional>
-          </Block>
-          <Block>
-            <Heading>Группа «ПСН»<br /></Heading>
-            <Additional>застройщик</Additional>
-          </Block>
-        </Blocks>
-      </Grid>
-    </Wrapper>
-  );
-};
+export default () =>
+  (<Wrapper>
+    <Grid>
+      <Blocks>
+        <Block>
+          <Heading>950<br /></Heading>
+          <Additional>предложений</Additional>
+        </Block>
+        <Block>
+          <Heading>John McAslan + Partners<br /></Heading>
+          <Additional>архитектор</Additional>
+        </Block>
+        <Block>
+          <Heading>Группа «ПСН»<br /></Heading>
+          <Additional>застройщик</Additional>
+        </Block>
+      </Blocks>
+    </Grid>
+  </Wrapper>);

@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Wrapper = styled.section`
   margin-top: -9.625rem;
@@ -40,32 +40,29 @@ const Distance = styled.p`
   color: #a9afb6;
 `;
 
-export default () => {
-  return (
-    <Wrapper>
-      <Grid>
-        <Row>
-          <Col lg={6}>
-            <LocationMap src={process.env.PUBLIC_URL + "/img/map.png"} />
-          </Col>
-          <Col lg={6}>
-            <Block>
-              <Content>
-                <Name>Красный октябрь</Name>
-                <Distance>24 минуты, 6 км</Distance>
-              </Content>
-              <Content>
-                <Name>World Class</Name>
-                <Distance>2 минуты, 300 м</Distance>
-              </Content>
-              <Content>
-                <Name>Третьяковская галерея</Name>
-                <Distance>14 минут, 4 км</Distance>
-              </Content>
-            </Block>
-          </Col>
-        </Row>
-      </Grid>
-    </Wrapper>
-  );
-};
+export default () =>
+  (<Wrapper>
+    <Grid>
+      <Row>
+        <Col lg={6}>
+          <LocationMap src={`${process.env.PUBLIC_URL}/img/map.png`} />
+        </Col>
+        <Col lg={6}>
+          <Block>
+            <Content>
+              <Name>Красный октябрь</Name>
+              <Distance>24 минуты, 6 км</Distance>
+            </Content>
+            <Content>
+              <Name>World Class</Name>
+              <Distance>2 минуты, 300 м</Distance>
+            </Content>
+            <Content>
+              <Name>Третьяковская галерея</Name>
+              <Distance>14 минут, 4 км</Distance>
+            </Content>
+          </Block>
+        </Col>
+      </Row>
+    </Grid>
+  </Wrapper>);

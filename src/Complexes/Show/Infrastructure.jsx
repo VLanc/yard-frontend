@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   padding: 0 0 3.5rem 0;
@@ -38,45 +38,42 @@ const Text = styled.p`
   margin-bottom: 0.35rem;
 `;
 
-export default () => {
-  return (
-    <Wrapper>
-      <Grid>
-        <Content>
-          <Heading>Инфраструктура</Heading>
-          <Blocks>
-            <Row>
-              <Col lg={2}>
-                <Text>Бассейн</Text>
-              </Col>
-              <Col lg={2}>
-                <Text>Детский сад</Text>
-              </Col>
-              <Col lg={2}>
-                <Text>Частная школа</Text>
-              </Col>
-              <Col lg={2}>
-                <Text>Бассейн</Text>
-              </Col>
-              <Col lg={2}>
-                <Text>Детский сад</Text>
-              </Col>
-              <Col lg={2}>
-                <Text>Частная школа</Text>
-              </Col>
-              <Col lg={2}>
-                <Text>Частная школа</Text>
-              </Col>
-              <Col lg={2}>
-                <Text>Частная школа</Text>
-              </Col>
-              <Col lg={2}>
-                <Text>Частная школа</Text>
-              </Col>
-            </Row>
-          </Blocks>
-        </Content>
-      </Grid>
-    </Wrapper>
-  );
-};
+export default () =>
+  (<Wrapper>
+    <Grid>
+      <Content>
+        <Heading>Инфраструктура</Heading>
+        <Blocks>
+          <Row>
+            <Col lg={2}>
+              <Text>Бассейн</Text>
+            </Col>
+            <Col lg={2}>
+              <Text>Детский сад</Text>
+            </Col>
+            <Col lg={2}>
+              <Text>Частная школа</Text>
+            </Col>
+            <Col lg={2}>
+              <Text>Бассейн</Text>
+            </Col>
+            <Col lg={2}>
+              <Text>Детский сад</Text>
+            </Col>
+            <Col lg={2}>
+              <Text>Частная школа</Text>
+            </Col>
+            <Col lg={2}>
+              <Text>Частная школа</Text>
+            </Col>
+            <Col lg={2}>
+              <Text>Частная школа</Text>
+            </Col>
+            <Col lg={2}>
+              <Text>Частная школа</Text>
+            </Col>
+          </Row>
+        </Blocks>
+      </Content>
+    </Grid>
+  </Wrapper>);

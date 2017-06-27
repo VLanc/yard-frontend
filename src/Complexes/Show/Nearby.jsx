@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import styled from "styled-components";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import styled from 'styled-components';
+import { BrowserRouter as Link } from 'react-router-dom';
 
 const Wrapper = styled.section`
   background-color: #3e4247;
@@ -48,25 +48,22 @@ const Photo = styled.img`
   height: 560px;
 `;
 
-export default () => {
-  return (
-    <Wrapper>
-      <Grid>
-        <Row between="lg" middle="lg">
-          <Col lg={6}>
-            <Title>Якиманка</Title>
-            <Heading>
-              Исторический центр Москвы в двух <br />километрах от Кремля
-            </Heading>
-            <NearbyLink to="#">
-              Гид по Якиманке<Arrow src="/img/arrow-nearby.svg" alt="" />
-            </NearbyLink>
-          </Col>
-          <Col lg={6}>
-            <Photo src="/img/Yakimanka.png" />
-          </Col>
-        </Row>
-      </Grid>
-    </Wrapper>
-  );
-};
+export default () =>
+  (<Wrapper>
+    <Grid>
+      <Row between="lg" middle="lg">
+        <Col lg={6}>
+          <Title>Якиманка</Title>
+          <Heading>
+            Исторический центр Москвы в двух <br />километрах от Кремля
+          </Heading>
+          <NearbyLink to="#">
+            Гид по Якиманке<Arrow src="/img/arrow-nearby.svg" alt="" />
+          </NearbyLink>
+        </Col>
+        <Col lg={6}>
+          <Photo src="/img/Yakimanka.png" />
+        </Col>
+      </Row>
+    </Grid>
+  </Wrapper>);

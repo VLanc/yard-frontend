@@ -1,7 +1,7 @@
 import React from 'react';
+import styled from 'styled-components';
+
 import logo from './compass-development-logo.svg';
-import { Grid, Row, Col } from 'react-flexbox-grid';
-import styled from "styled-components";
 
 const Banner = styled.div`
   background: #161616;
@@ -14,10 +14,7 @@ const Logo = styled.img`
   height: 131px;
 `;
 
-export default () => {
-  return (
-    <Banner>
-      <Logo src={logo} />
-    </Banner>
-  );
-};
+export default () =>
+  (<Banner>
+    <Logo src={logo} />
+  </Banner>);
