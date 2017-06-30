@@ -30,6 +30,7 @@ const Content = styled.div`
   border-bottom-width: 0.125rem;
   border-bottom-style: solid;
   background-color: #fff;
+  width: 100%;
 `;
 
 const Place = styled.p`
@@ -62,7 +63,7 @@ const Decscription = styled.p`
 
 export default props =>
   (<Card to={`/complexes/${props.id}`}>
-    <Image src={`${process.env.PUBLIC_URL}/img/picture-${props.id}.png`} />
+    <Image src={props.image} />
     <Content>
       <Place>{props.geo}</Place>
       <Title>{props.title}</Title>
