@@ -7,7 +7,7 @@ import Footer from './Footer';
 import Complexes from './Complexes/List';
 import Complex from './Complexes/Show';
 
-const App = () =>
+export default () =>
   (<Router>
     <div className="App">
       <Header />
@@ -16,5 +16,3 @@ const App = () =>
       <Footer />
     </div>
   </Router>);
-
-export default App;
